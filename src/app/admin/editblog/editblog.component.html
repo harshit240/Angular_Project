@@ -1,0 +1,32 @@
+<!-- <h1 class="text-center">UPDATE A BLOG</h1>
+<div class="container">
+    <form [formGroup]="form" (ngsubmit)="update()">
+        Title:<input type="text" formControlName="title"><br><br>
+        Body:<input type="text" formControlName="body" ><br><br>
+        <a href="" class="btn btn-info">Update</a>
+    </form>
+</div> -->
+
+<h1 class="text-center mt-5 text-white bg-primary">UPDATE A BLOG</h1>
+<div class="container bg-info text-white">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 mt-5">
+            <form [formGroup]="form" (ngSubmit)="update()">
+                <div class="mb-3">
+                    <label>TITLE:</label>
+                    <input type="text" formControlName="title" class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label>BODY:</label>
+                    <br />
+                    <textarea class="form-control" formControlName="description"></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger mb-4 text-white rounded-pill">
+                    Update
+                </button>
+            </form>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>

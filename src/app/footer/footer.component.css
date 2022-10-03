@@ -1,0 +1,12 @@
+/* font-family:'Abyssinica SIL', serif; */
+
+.social-icons a{
+    padding: 8px 93px;
+    background: #003a50;
+    color: #fff;
+    font-size: 35px;
+}
+.social-icons a i:hover,.social-icons a i.active{
+    color: orange;
+    transition: 0.5s ease;
+}

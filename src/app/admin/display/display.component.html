@@ -1,0 +1,42 @@
+<section class="dashboard-wrap mtb-40 ">
+    <div class="container ">
+        <div class="body-content ">
+            <div class="row ">
+                <div class="col-md-3 ">
+                    <app-sidebar></app-sidebar>   
+                </div>
+                <div class="col-md-9">
+                    <div class="dash-right">
+                        <div class="dash-header">
+                            <div class="dash-title">
+                                <h1>Blogs</h1>
+                            </div>
+                            <div class="dash-nav">
+                                <a routerLink="admin-createblog" class="btn btn-danger">Add Post</a>
+                            </div>
+                        </div>
+                        <table class="table table-bordered table-striped">
+                            <tr>
+                                <th>#ID</th>
+                                <th>Title</th>
+                                <th>Description</th>
+                                <th>Action</th>
+                            </tr>
+                            <tr *ngFor="let get of data">
+                                <td>{{get.id}}</td>
+                                <td>{{get.title}}</td>
+                                <td>{{get.description}}</td>
+                                <td>
+                                    <a [routerLink]="['/admin-view/',get.id]" class="btn btn-danger btn-sm" style="background:red;">View</a>
+                                    <a [routerLink]="['/admin-editblog/',get.id]" class="btn btn-info btn-sm" style="background:red;">Edit</a>
+                                    <a href="#" class="btn btn-danger btn-sm" style="background:red;">Delete</a>
+                                </td>
+                            </tr>
+                            
+                        </table>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

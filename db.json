@@ -1,0 +1,119 @@
+{
+  "blogs": [
+    {
+      "title": "Ram",
+      "description": "Hello Ram",
+      "id": 1
+    },
+    {
+      "title": "Kajal",
+      "description": "Hello Kajal",
+      "id": 2
+    },
+    {
+      "title": "Shyam",
+      "description": "Hello Shyam",
+      "id": 3
+    },
+    {
+      "title": "Aman",
+      "description": "Hello Aman",
+      "id": 4
+    },
+    {
+      "title": "Rakesh sahu",
+      "description": "Hello Rakesh sahu",
+      "id": 5
+    },
+    {
+      "title": "Mahesh",
+      "description": "Hello Mahesh",
+      "id": 6
+    },
+    {
+      "title": "Jay",
+      "description": "Hello Jay",
+      "id": 7
+    },
+    {
+      "title": "Sachin",
+      "description": "Hello Sachin",
+      "id": 8
+    },
+    {
+      "title": "Priyanka",
+      "description": "Hello Priyanka",
+      "id": 9
+    },
+    {
+      "title": "Sonam",
+      "description": "Hello Sonam",
+      "id": 10
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Himanshu",
+      "mail": "601himanshusahu@gmail.com",
+      "phone": "8871482503",
+      "message": "Hello Himanshu",
+      "id": 1
+    },
+    {
+      "name": "Rahul",
+      "mail": "rahul@gmail.com",
+      "phone": "123456789",
+      "message": "Hello Rahul",
+      "id": 2
+    },
+    {
+      "name": "Aman",
+      "mail": "Aman@gmail.com",
+      "phone": "123456789",
+      "message": "Hello Aman",
+      "id": 3
+    },
+    {
+      "name": "Jay",
+      "mail": "Jay@gmail.com",
+      "phone": "123456789",
+      "message": "Hello Jay",
+      "id": 4
+    },
+    {
+      "name": "Hanuman",
+      "mail": "Hanuman@gmail.com",
+      "phone": "123456789",
+      "message": "Glory to Hanuman",
+      "id": 5
+    },
+    {
+      "name": "ShreeRam",
+      "mail": "Jayshreeram@gmail.com",
+      "phone": "123456789",
+      "message": "Jay shree ram",
+      "id": 6
+    },
+    {
+      "name": "Radha",
+      "mail": "Radha@gmail.com",
+      "phone": "123456789",
+      "message": "Radhe Radhe",
+      "id": 7
+    },
+    {
+      "name": "Krishna",
+      "mail": "Krishna@gmail.com",
+      "phone": "123456789",
+      "message": "Krishna Krishna",
+      "id": 8
+    },
+    {
+      "name": "Radhe Krishna",
+      "mail": "Radhe Krishna@gmail.com",
+      "phone": "123456789",
+      "message": "Radhe Krishna",
+      "id": 9
+    }
+  ]
+}
