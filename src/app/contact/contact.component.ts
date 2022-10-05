@@ -23,10 +23,9 @@ export class ContactComponent implements OnInit {
     })
 
     this.ser.contactsdata().subscribe((res)=>{
-      console.log(res);
-      // this.data = res;
+      // console.log(res);
+      this.data = res;
     })
-    
   }
   
   sendmessage(){
@@ -34,7 +33,7 @@ export class ContactComponent implements OnInit {
     return this.ser.sendcontactdetails(this.form.value).subscribe((res)=>{
       console.log(res);
     })
-
+    
     
   }
 
