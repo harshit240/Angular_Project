@@ -1,0 +1,9 @@
+.action-btn{
+    background-color: #029477;
+    border-radius: 12px;
+    margin-right: 5px;
+    border: 0;
+}
+tr:nth-child(odd){
+    background-color: #eeeeee;
+}

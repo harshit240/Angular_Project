@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="blog-left">
-                    <h1>Sample blog post 1</h1>
+                    <h1>{{dataview.title}}</h1>
                     <div class="posted-on">
                         <p>by <span>RSGiTECH</span> on <span>October 22, 2018</span></p>
                     </div>
@@ -11,8 +11,7 @@
                        <img src="assets/images/img1.jpg" alt="blog1" />
                     </div>
                     <div class="blog-desc">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                        <p>{{dataview.description}}</p>
                     </div>
                 </div>
             </div>
@@ -20,57 +19,13 @@
                 <div class="blog-right">
                     <div class="right-widget recent-post">
                         <h3>Recent Blogs</h3>
-                        <a href="#">
+                        <a href="#" *ngFor="let item of data">
                             <div class="rb-box">
                                 <div class="rb-box-img">
                                     <img src="assets/images/img1.jpg" alt="blog1" />
                                 </div>
                                 <div class="rb-box-desc">
-                                    <h4>Sample blog post 1</h4>
-                                    <p>Posted On: October 22, 2018</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="rb-box">
-                                <div class="rb-box-img">
-                                    <img src="assets/images/img2.jpg" alt="blog1" />
-                                </div>
-                                <div class="rb-box-desc">
-                                    <h4>Sample blog post 2</h4>
-                                    <p>Posted On: October 22, 2018</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="rb-box">
-                                <div class="rb-box-img">
-                                    <img src="assets/images/img3.jpg" alt="blog1" />
-                                </div>
-                                <div class="rb-box-desc">
-                                    <h4>Sample blog post 3</h4>
-                                    <p>Posted On: October 22, 2018</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="rb-box">
-                                <div class="rb-box-img">
-                                    <img src="assets/images/img4.jpg" alt="blog1" />
-                                </div>
-                                <div class="rb-box-desc">
-                                    <h4>Sample blog post 4</h4>
-                                    <p>Posted On: October 22, 2018</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="rb-box">
-                                <div class="rb-box-img">
-                                    <img src="assets/images/img5.jpg" alt="blog1" />
-                                </div>
-                                <div class="rb-box-desc">
-                                    <h4>Sample blog post 5</h4>
+                                    <h4>{{item.title}}</h4>
                                     <p>Posted On: October 22, 2018</p>
                                 </div>
                             </div>

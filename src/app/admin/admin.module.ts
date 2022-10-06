@@ -13,6 +13,8 @@ import { CreatecategoryComponent } from './createcategory/createcategory.compone
 import { PagenotfoundComponent } from '../pagenotfound/pagenotfound.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { DisplayContactComponent } from './display-contact/display-contact.component';
+import { ViewContactComponent } from './view-contact/view-contact.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     ViewComponent,
     DisplayComponent,
     CreatecategoryComponent,
+    DisplayContactComponent,
+    ViewContactComponent,
   ],
   imports: [
     CommonModule,

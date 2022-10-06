@@ -1,54 +1,49 @@
 {
   "blogs": [
     {
-      "title": "Ram",
-      "description": "Hello ram",
+      "title": "TATA Group",
+      "description": "The Tata Group is an Indian multinational conglomerate headquartered in Mumbai. Established in 1868, it is India's largest conglomerate, with products and services in over 150 countries, and operations in 100 countries across six continents.",
       "id": 1
     },
     {
-      "title": "Kajal",
-      "description": "Hello Kajal",
+      "title": "TCS",
+      "description": "Tata Consultancy Services is an Indian multinational information technology services and consulting company with its headquarters in Mumbai. It is a part of the Tata Group and operates in 150 locations across 46 countries. In July 2022,",
       "id": 2
     },
     {
-      "title": "Shyam",
-      "description": "Hello Shyam",
+      "title": "Khelo India",
+      "description": "Khelo India Youth Games, formerly Khelo India School Games, are the annual national level multidisciplinary grassroot games in India held in January or February for two categories, namely under-17 years school students and under-21 college students",
       "id": 3
     },
     {
-      "title": "Aman",
-      "description": "Hello Aman",
+      "title": "Jan Dhan Yojna",
+      "description": "Pradhan Mantri Jan Dhan Yojana is a financial inclusion program of the Government of India open to Indian citizens, that aims to expand affordable access to financial services such as bank accounts, remittances, credit, insurance and pensions.",
       "id": 4
     },
     {
-      "title": "Rakesh sahu",
-      "description": "Hello Rakesh sahu",
+      "title": "Gwalior",
+      "description": "Gwalior is a city in the central Indian state of Madhya Pradesh. It's known for its palaces and temples, including the Sas Bahu Ka Mandir intricately carved Hindu temple.",
       "id": 5
     },
     {
-      "title": "Mahesh",
-      "description": "Hello Mahesh",
+      "title": "Technology",
+      "description": "Technologies are artifacts made through a systematic application of knowledge and used to reach practical goals. They are widely used in medicine, science, industry, communication, transportation, and daily life.",
       "id": 6
     },
     {
-      "title": "Jay",
-      "description": "Hello Jay",
+      "title": "Business",
+      "description": "Business is the activity of making one's living or making money by producing or buying and selling products (such as goods and services).      ",
       "id": 7
     },
     {
-      "title": "Sachin",
-      "description": "Hello Sachin",
+      "title": "Artificial Intelligence",
+      "description": "Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals and humans.",
       "id": 8
     },
     {
-      "title": "Priyanka",
-      "description": "Hello Priyanka",
+      "title": "North East",
+      "description": "Northeast India is the easternmost region of India representing both a geographic and political administrative division of the country. It comprises eight states – Arunachal Pradesh, Assam, Manipur, Meghalaya, Mizoram, Nagaland, Tripura and Sikkim.",
       "id": 9
-    },
-    {
-      "title": "Sonam",
-      "description": "Hello Sonam",
-      "id": 10
     }
   ],
   "contacts": [
@@ -114,6 +109,13 @@
       "phone": "123456789",
       "message": "Radhe Krishna",
       "id": 9
+    },
+    {
+      "name": "Anjali",
+      "mail": "anjali@gmail.com",
+      "phone": "8852357542",
+      "message": "Jay ho!",
+      "id": 10
     }
   ]
 }

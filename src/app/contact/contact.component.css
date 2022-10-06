@@ -1,6 +1,10 @@
-.contact-banner{
+/* .contact-banner{
     background-image: url(/assets/images/contact-us.jpg);
     width: 100%;
     height: 600px;
     background-size: cover;
+} */
+.contact_heading{
+    border-bottom:1px solid black; 
+    color:#386576;
 }

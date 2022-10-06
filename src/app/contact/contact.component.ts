@@ -30,8 +30,9 @@ export class ContactComponent implements OnInit {
   
   sendmessage(){
     // console.log(this.form.value);
-    return this.ser.sendcontactdetails(this.form.value).subscribe((res)=>{
+    this.ser.sendcontactdetails(this.form.value).subscribe((res)=>{
       console.log(res);
+      this.route.navigate(['/'])
     })
     
     

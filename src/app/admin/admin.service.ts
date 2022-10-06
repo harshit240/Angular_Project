@@ -14,21 +14,28 @@ export class AdminService {
     return this.http.get(this.url+'blogs');
   }
 
-  sendcontactdetails(details:any){
-    console.log(details);
-    return this.http.post(this.url+'contacts'+details,{});
-  }
-
-  contactsdata(){
-    return this.http.get(this.url+'contacts');
+  insertblog(blog:any){
+    return this.http.post(this.url+'blogs',blog)
   }
 
   viewdata(id:any){
     return this.http.get(this.url+'blogs/'+id);
   }
-
+  
   updatedata(data:any,id:any){
     return this.http.put(this.url+'blogs/'+id,data);
   }
   
+  // Contact methods
+  sendcontactdetails(details:any){
+    console.log(details);
+    return this.http.post(this.url+'contacts',details);
+  }
+
+  contactsdata(){
+    return this.http.get(this.url+'contacts');
+  }
+  viewcontacts(id:any){
+    return this.http.get(this.url+'contacts/'+id);
+  }
 }
