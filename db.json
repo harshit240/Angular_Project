@@ -46,6 +46,13 @@
       "id": 9
     }
   ],
+  "categories": [
+    {
+      "title": "Technology",
+      "description": "Technologies are artifacts made through a systematic application of knowledge and used to reach practical goals. ",
+      "id": 1
+    }
+  ],
   "contacts": [
     {
       "name": "Himanshu",

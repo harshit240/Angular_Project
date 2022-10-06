@@ -9,6 +9,7 @@ import { DisplayComponent } from './display/display.component';
 import { DisplaycategoryComponent } from './displaycategory/displaycategory.component';
 import { EditblogComponent } from './editblog/editblog.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { ViewCategoryComponent } from './view-category/view-category.component';
 import { ViewContactComponent } from './view-contact/view-contact.component';
 import { ViewComponent } from './view/view.component';
 
@@ -44,6 +45,10 @@ const routes: Routes = [
 {
   path:"admin-createcategory",
   component:CreatecategoryComponent
+},
+{
+  path:"admin-viewcategory/:id",
+  component:ViewCategoryComponent
 },
 {
   path:"admin-view/:id",

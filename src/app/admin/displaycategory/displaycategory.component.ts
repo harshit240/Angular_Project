@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AdminService } from '../admin.service';
 
 @Component({
   selector: 'app-displaycategory',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./displaycategory.component.css']
 })
 export class DisplaycategoryComponent implements OnInit {
-
-  constructor() { }
+  data:any;
+  constructor(private ser:AdminService) { }
 
   ngOnInit(): void {
+    this.ser.categorydata().subscribe((res)=>{
+      // console.log(res);
+      this.data = res
+    })
   }
 
 }

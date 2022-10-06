@@ -15,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { DisplayContactComponent } from './display-contact/display-contact.component';
 import { ViewContactComponent } from './view-contact/view-contact.component';
+import { ViewCategoryComponent } from './view-category/view-category.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ViewContactComponent } from './view-contact/view-contact.component';
     CreatecategoryComponent,
     DisplayContactComponent,
     ViewContactComponent,
+    ViewCategoryComponent,
   ],
   imports: [
     CommonModule,

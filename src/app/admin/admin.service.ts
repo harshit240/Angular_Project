@@ -25,7 +25,7 @@ export class AdminService {
   updatedata(data:any,id:any){
     return this.http.put(this.url+'blogs/'+id,data);
   }
-  
+  // ========================
   // Contact methods
   sendcontactdetails(details:any){
     console.log(details);
@@ -37,5 +37,16 @@ export class AdminService {
   }
   viewcontacts(id:any){
     return this.http.get(this.url+'contacts/'+id);
+  }
+  // ====================
+  // Category Methods
+  categorydata(){
+    return this.http.get(this.url+'categories');
+  }
+  insertcategory(category:any){
+    return this.http.post(this.url+'categories',category)
+  }
+  viewcategorydata(id:any){
+    return this.http.get(this.url+'categories/'+id);
   }
 }
