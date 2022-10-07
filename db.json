@@ -5,6 +5,36 @@
       "description": "The Tata Group is an Indian multinational conglomerate headquartered in Mumbai. Established in 1868, it is India's largest conglomerate, with products and services in over 150 countries, and operations in 100 countries across six continents.",
       "image": "https://burst.shopifycdn.com/photos/person-holds-a-book-over-a-stack-and-turns-the-page.jpg?width=1200&format=pjpg&exif=0&iptc=0",
       "id": 1
+    },
+    {
+      "title": "Khelo india",
+      "description": "Khelo India Youth Games, formerly Khelo India School Games, are the annual national level multidisciplinary grassroot games in India held in January or February for two categories, namely under-17 years school students and under-21 college students",
+      "image": "https://images.indianexpress.com/2017/09/khelo-india1200.jpg",
+      "id": 2
+    },
+    {
+      "title": "PLI Scheme”",
+      "description": "With the objective to boost domestic manufacturing, investments and export in the telecom and networking products Department of Telecommunications (DoT) notified the “Production Linked Incentive (PLI) Scheme” on 24th February 2021.",
+      "image": "https://newsonair.com/wp-content/uploads/2022/03/WhatsApp-Image-2022-03-22-at-20.45.18.jpeg",
+      "id": 3
+    },
+    {
+      "title": "Natural Environment”",
+      "description": "The natural environment or natural world encompasses all living and non-living things occurring naturally, meaning in this case not artificial. The term is most often applied to the Earth or some parts of Earth.",
+      "image": "https://www.voicesofyouth.org/sites/voy/files/styles/blog_teaser/public/images/2019-11/istockphoto-519616538-612x612_0.jpg?h=763c0bb2&itok=InsCxYtP",
+      "id": 4
+    },
+    {
+      "title": "Logistic Policy",
+      "description": "The new logistics policy has four features: Integration of Digital System (IDS); Unified Logistics Interface Platform (ULIP); Ease of Logistics (ELOG); and System Improvement Group (SIG)",
+      "image": "https://img.jagranjosh.com/images/2022/September/2092022/nlp.jpg",
+      "id": 5
+    },
+    {
+      "title": "UNESCO",
+      "description": "The United Nations Educational, Scientific and Cultural Organization is a specialised agency of the United Nations aimed at promoting world peace and security through international cooperation in education, arts, sciences and culture",
+      "image": "https://static.dw.com/image/16103251_101.jpg",
+      "id": 6
     }
   ],
   "categories": [
@@ -100,7 +130,7 @@
   ],
   "about": [
     {
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates dignissimos eligendi labore repellat tempora aspernatur accusamus quas totam nihil debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quis perferendis laborum id ducimus commodi nostrum facere natus blanditiis asperiores Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim dolorum assumenda at delectus aperiam consequatur tempore natus excepturi ducimus mollitia! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat quisquam repellat recusandae dolore est quibusdam, magnam iure! Ut, nobis voluptates.",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates dignissimos eligendi labore repellat tempora aspernatur accusamus quas totam nihil debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quis perferendis laborum id ducimus commodi nostrum facere natus blanditiis asperiores Lorem ipsum, dolor sit Lorem ipsum dolor, sit amet consectetur adipisicing elit. ",
       "id": 1
     }
   ],

@@ -9,6 +9,7 @@ import { DisplayContactComponent } from './display-contact/display-contact.compo
 import { DisplayComponent } from './display/display.component';
 import { DisplaycategoryComponent } from './displaycategory/displaycategory.component';
 import { EditAboutComponent } from './edit-about/edit-about.component';
+import { EditCategoryComponent } from './edit-category/edit-category.component';
 import { EditblogComponent } from './editblog/editblog.component';
 
 import { SidebarComponent } from './sidebar/sidebar.component';
@@ -69,6 +70,10 @@ const routes: Routes = [
 {
   path:"admin-edit-about/:id",
   component:EditAboutComponent
+},
+{
+  path:"admin-editcategory/:id",
+  component:EditCategoryComponent
 },
 {
   path:"register",

@@ -2,9 +2,9 @@
   <div class="container mt-5">
     <h1 class="text-center about_heading"><span style="color: #386576;">ABOUT US</span></h1>
     <div class="row">
-      <div class="col-md-8">
-        <p style="color:rgb(129, 183, 183);">{{data.description}}</p>
-        <p>{{data.description}}</p>
+      <div class="col-md-8" *ngFor="let item of data">
+        <p style="color:rgb(129, 183, 183);">{{item.description}}</p>
+        <p>{{item.description}}</p>
         <a href="" class="btn readmorebtn">Read More</a>
       </div>
       <div class="col-md-4 text-center">

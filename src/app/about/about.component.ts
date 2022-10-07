@@ -12,8 +12,8 @@ export class AboutComponent implements OnInit {
   constructor(private ser:AdminService) { }
 
   ngOnInit(): void {
-    this.ser.viewabout().subscribe((res)=>{
-      // console.log(res);
+    this.ser.getabout().subscribe((res)=>{
+      console.log(res);
       this.data=res;
     })
   }

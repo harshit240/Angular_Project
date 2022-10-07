@@ -48,12 +48,20 @@ export class AdminService {
   viewcategorydata(id:any){
     return this.http.get(this.url+'categories/'+id);
   }
+  updatecategory(data:any,id:any){
+    return this.http.put(this.url+'categories/'+id,data);
+  }
   // =====================================
   // About Page
-  viewabout(){
+  getabout(){
     return this.http.get(this.url+'about')
   }
-  
+  viewabout(id:any){
+    return this.http.get(this.url+'about/'+id);
+  }
+  updateabout(data:any,id:any){
+    return this.http.put(this.url+'about/'+id,data);
+  }
   // Registration page
   sendregisterdetails(details: any) {
     console.log(details);

@@ -20,12 +20,14 @@
                                 <th>ID No.</th>
                                 <th>Title</th>
                                 <th>Description</th>
+                                <th>Image</th>
                                 <th>Action</th>
                             </tr>
                             <tr *ngFor="let get of data" class="text-center table">
                                 <td>{{get.id}}</td>
                                 <td>{{get.title}}</td>
                                 <td>{{get.description}}</td>
+                                <td><img src="{{get.image}}" alt="" width="400px" ></td>
                                 <td>
                                     <a [routerLink]="['/admin-view/',get.id]" class="btn btn-danger btn-sm action-btn"><i class="fa-solid fa-eye"></i></a>
                                     <a [routerLink]="['/admin-editblog/',get.id]" class="btn btn-info btn-sm action-btn" ><i class="fa-regular fa-pen-to-square"></i></a>

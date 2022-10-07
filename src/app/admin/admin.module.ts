@@ -19,6 +19,7 @@ import { ViewCategoryComponent } from './view-category/view-category.component';
 import { DisplayAboutComponent } from './display-about/display-about.component';
 import { EditAboutComponent } from './edit-about/edit-about.component';
 import { SignupComponent } from './signup/signup.component';
+import { EditCategoryComponent } from './edit-category/edit-category.component';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { SignupComponent } from './signup/signup.component';
     DisplayAboutComponent,
     EditAboutComponent,
     SignupComponent,
+    EditCategoryComponent,
     
    
   ],

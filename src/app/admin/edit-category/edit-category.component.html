@@ -1,18 +1,9 @@
-<!-- <h1 class="text-center">UPDATE A BLOG</h1>
-<div class="container">
-    <form [formGroup]="form" (ngsubmit)="update()">
-        Title:<input type="text" formControlName="title"><br><br>
-        Body:<input type="text" formControlName="body" ><br><br>
-        <a href="" class="btn btn-info">Update</a>
-    </form>
-</div> -->
-
 <div class="container bg-info text-white mb-5">
-    <h1 class="text-center mt-5 text-white bg-primary">UPDATE A BLOG</h1>
+    <h1 class="text-center mt-5 text-white bg-primary">UPDATE A CATEGORY</h1>
     <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8 mt-5">
-            <form [formGroup]="form" (ngSubmit)="update()">
+            <form [formGroup]="form" (ngSubmit)="updatecategory()">
                 <div class="mb-3">
                     <label>TITLE:</label>
                     <input type="text" formControlName="title" class="form-control" />

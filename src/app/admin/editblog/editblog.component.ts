@@ -41,7 +41,7 @@ export class EditblogComponent implements OnInit {
   update(){
     return this.ser.updatedata(this.form.value,this.id).subscribe((res)=>{
       console.log(res);
-      this.route.navigate(['/'])
+      this.route.navigate(['/admin-dashboard'])
     })
   }
 
