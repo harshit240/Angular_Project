@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AdminService } from '../admin/admin.service';
 
 @Component({
   selector: 'app-about',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  data:any;
+  constructor(private ser:AdminService) { }
 
   ngOnInit(): void {
+    this.ser.viewabout().subscribe((res)=>{
+      // console.log(res);
+      this.data=res;
+    })
   }
 
 }

@@ -3,8 +3,20 @@
     {
       "title": "TATA Group",
       "description": "The Tata Group is an Indian multinational conglomerate headquartered in Mumbai. Established in 1868, it is India's largest conglomerate, with products and services in over 150 countries, and operations in 100 countries across six continents.",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fblog&psig=AOvVaw1eT6Zydesox2EAnPOV0voL&ust=1665197066281000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjvndKMzfoCFQAAAAAdAAAAABAF",
+      "image": "https://burst.shopifycdn.com/photos/person-holds-a-book-over-a-stack-and-turns-the-page.jpg?width=1200&format=pjpg&exif=0&iptc=0",
       "id": 1
+    }
+  ],
+  "categories": [
+    {
+      "title": "Technology",
+      "description": "Technologies are artifacts made through a systematic application of knowledge and used to reach practical goals. ",
+      "id": 1
+    },
+    {
+      "title": "Environment",
+      "description": "The natural environment or natural world encompasses all living and non-living things occurring naturally, meaning in this case not artificial. The term is most often applied to the Earth or some parts of Earth. ",
+      "id": 2
     }
   ],
   "contacts": [

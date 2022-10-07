@@ -27,7 +27,7 @@
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: url("/assets/images/bg.jpg") no-repeat center;
+	background: url("https://images.pexels.com/photos/2792043/pexels-photo-2792043.jpeg?cs=srgb&dl=pexels-steshka-willems-2792043.jpg&fm=jpg") no-repeat center;
 	background-size: cover;
 	filter: blur(50px);
 	z-index: -1;
@@ -44,7 +44,7 @@
 }
 
 .left{
-	background: url("/assets/images/bg.jpg") no-repeat center;
+	background: url(https://images.pexels.com/photos/2792043/pexels-photo-2792043.jpeg?cs=srgb&dl=pexels-steshka-willems-2792043.jpg&fm=jpg) no-repeat center;
 	background-size: cover;
 	height: 100%;
 }

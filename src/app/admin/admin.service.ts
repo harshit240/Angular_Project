@@ -53,6 +53,7 @@ export class AdminService {
   viewabout(){
     return this.http.get(this.url+'about')
   }
+  
   // Registration page
   sendregisterdetails(details: any) {
     console.log(details);

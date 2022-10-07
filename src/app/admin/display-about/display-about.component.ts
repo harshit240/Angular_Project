@@ -8,13 +8,13 @@ import { AdminService } from '../admin.service';
 })
 export class DisplayAboutComponent implements OnInit {
 
-  aboutdata:any;
+  data:any;
   constructor(private ser:AdminService) { }
 
   ngOnInit(): void {
     this.ser.viewabout().subscribe((res)=>{
       console.log(res);
-      this.aboutdata=res;
+      this.data=res;
     })
   }
 
