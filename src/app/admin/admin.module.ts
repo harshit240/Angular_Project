@@ -16,6 +16,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { DisplayContactComponent } from './display-contact/display-contact.component';
 import { ViewContactComponent } from './view-contact/view-contact.component';
 import { ViewCategoryComponent } from './view-category/view-category.component';
+import { DisplayAboutComponent } from './display-about/display-about.component';
+import { EditAboutComponent } from './edit-about/edit-about.component';
+import { RegisterComponent } from './register/register.component';
+
 
 @NgModule({
   declarations: [
@@ -30,6 +34,10 @@ import { ViewCategoryComponent } from './view-category/view-category.component';
     DisplayContactComponent,
     ViewContactComponent,
     ViewCategoryComponent,
+    DisplayAboutComponent,
+    EditAboutComponent,
+    RegisterComponent,
+   
   ],
   imports: [
     CommonModule,

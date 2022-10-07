@@ -3,53 +3,7 @@
     {
       "title": "TATA Group",
       "description": "The Tata Group is an Indian multinational conglomerate headquartered in Mumbai. Established in 1868, it is India's largest conglomerate, with products and services in over 150 countries, and operations in 100 countries across six continents.",
-      "id": 1
-    },
-    {
-      "title": "TCS",
-      "description": "Tata Consultancy Services is an Indian multinational information technology services and consulting company with its headquarters in Mumbai. It is a part of the Tata Group and operates in 150 locations across 46 countries. In July 2022,",
-      "id": 2
-    },
-    {
-      "title": "Khelo India",
-      "description": "Khelo India Youth Games, formerly Khelo India School Games, are the annual national level multidisciplinary grassroot games in India held in January or February for two categories, namely under-17 years school students and under-21 college students",
-      "id": 3
-    },
-    {
-      "title": "Jan Dhan Yojna",
-      "description": "Pradhan Mantri Jan Dhan Yojana is a financial inclusion program of the Government of India open to Indian citizens, that aims to expand affordable access to financial services such as bank accounts, remittances, credit, insurance and pensions.",
-      "id": 4
-    },
-    {
-      "title": "Gwalior",
-      "description": "Gwalior is a city in the central Indian state of Madhya Pradesh. It's known for its palaces and temples, including the Sas Bahu Ka Mandir intricately carved Hindu temple.",
-      "id": 5
-    },
-    {
-      "title": "Technology",
-      "description": "Technologies are artifacts made through a systematic application of knowledge and used to reach practical goals. They are widely used in medicine, science, industry, communication, transportation, and daily life.",
-      "id": 6
-    },
-    {
-      "title": "Business",
-      "description": "Business is the activity of making one's living or making money by producing or buying and selling products (such as goods and services).      ",
-      "id": 7
-    },
-    {
-      "title": "Artificial Intelligence",
-      "description": "Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals and humans.",
-      "id": 8
-    },
-    {
-      "title": "North East",
-      "description": "Northeast India is the easternmost region of India representing both a geographic and political administrative division of the country. It comprises eight states – Arunachal Pradesh, Assam, Manipur, Meghalaya, Mizoram, Nagaland, Tripura and Sikkim.",
-      "id": 9
-    }
-  ],
-  "categories": [
-    {
-      "title": "Technology",
-      "description": "Technologies are artifacts made through a systematic application of knowledge and used to reach practical goals. ",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fblog&psig=AOvVaw1eT6Zydesox2EAnPOV0voL&ust=1665197066281000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjvndKMzfoCFQAAAAAdAAAAABAF",
       "id": 1
     }
   ],
@@ -123,6 +77,22 @@
       "phone": "8852357542",
       "message": "Jay ho!",
       "id": 10
+    },
+    {
+      "name": "Aman",
+      "mail": "aman@gmail.com",
+      "phone": "9845654126",
+      "message": "Hello world!",
+      "id": 11
     }
+  ],
+  "about": [
+    {
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates dignissimos eligendi labore repellat tempora aspernatur accusamus quas totam nihil debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quis perferendis laborum id ducimus commodi nostrum facere natus blanditiis asperiores Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim dolorum assumenda at delectus aperiam consequatur tempore natus excepturi ducimus mollitia! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat quisquam repellat recusandae dolore est quibusdam, magnam iure! Ut, nobis voluptates.",
+      "id": 1
+    }
+  ],
+  "register":[
+    
   ]
 }

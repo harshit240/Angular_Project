@@ -9,26 +9,21 @@
                     <div class="dash-right">
                         <div class="dash-header mt-5">
                             <div class="dash-title">
-                                <h1 style="color:#029477;">Category</h1>
+                                <h1 style="color:#029477;">Contacts</h1>
                             </div>
                             <div class="dash-nav">
-                                <a routerLink="/admin-createcategory" class="btn btn-info mt-4 mb-3">Add Category</a>
+                                <a routerLink="/admin-createblog" class="btn btn-info mt-4 mb-3">Add Post</a>
                             </div>
                         </div>
                         <table class="table table-bordered table-striped">
                             <tr style="background-color: #029477; color:white;" class="table text-center">
-                                <th>ID No.</th>
-                                <th>Title</th>
                                 <th>Description</th>
-                                <th>Action</th>
+                                <th>Actions</th>
                             </tr>
-                            <tr class="text-center table" *ngFor="let item of data">
-                                <td>{{item.id}}</td>
-                                <td>{{item.title}}</td>
-                                <td>{{item.description}}</td>
+                            <tr class="text-center table" >
+                                <td>{{aboutdata.description}}</td>
                                 <td>
-                                    <a [routerLink]="['/admin-viewcategory/',item.id]" class="btn btn-danger btn-sm action-btn"><i class="fa-solid fa-eye"></i></a>
-                                    <a [routerLink]="['/admin-editcategory/',item.id]" class="btn btn-info btn-sm action-btn" ><i class="fa-regular fa-pen-to-square"></i></a>
+                                    <a [routerLink]="['/admin-edit-about/',aboutdata.id]" class="btn btn-info btn-sm action-btn" ><i class="fa-regular fa-pen-to-square"></i></a>
                                     <a href="#" class="btn btn-danger btn-sm action-btn" ><i class="fa-solid fa-trash"></i></a>
                                 </td>
                             </tr>

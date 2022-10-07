@@ -12,7 +12,7 @@
 
             <div class="col-md-4" *ngFor="let d of data">
                 <div class="blog-box ">
-                    <img src="assets/images/img1.jpg" alt="blog1" />
+                    <img src="{{d.image}}" alt="blog1" />
                     <h3>{{d.title}}</h3>
                     <p>by <span>RSGiTECH</span> on <span>October 22, 2018</span></p>
                     <p>{{d.description}}</p>

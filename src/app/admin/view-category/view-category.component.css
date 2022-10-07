@@ -1,0 +1,15 @@
+tr:nth-child(odd){
+    background-color: #eeeeee;
+}
+.action-btn{
+    background-color: #029477;
+    border-radius: 12px;
+    margin-right: 5px;
+    border: 0;
+}
+.action-btn:nth-child(1):hover{
+    background-color: rgb(0, 157, 255);
+}
+.action-btn:nth-child(2):hover{
+    background-color: rgb(255, 132, 0);
+}

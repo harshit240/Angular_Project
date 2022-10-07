@@ -13,10 +13,16 @@ export class DetailComponent implements OnInit {
   id:any;
   dataview:any;
   data:any
+  categorydata:any;
   
   ngOnInit(): void {
     this.ser.getdata().subscribe((res)=>{
       this.data=res;
+
+      this.ser.categorydata().subscribe((res)=>{
+        // console.log(res);
+        this.categorydata = res;
+      })
     })
 
 
