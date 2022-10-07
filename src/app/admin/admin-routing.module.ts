@@ -12,6 +12,7 @@ import { EditAboutComponent } from './edit-about/edit-about.component';
 import { EditblogComponent } from './editblog/editblog.component';
 
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { SignupComponent } from './signup/signup.component';
 import { ViewCategoryComponent } from './view-category/view-category.component';
 import { ViewContactComponent } from './view-contact/view-contact.component';
 import { ViewComponent } from './view/view.component';
@@ -69,6 +70,10 @@ const routes: Routes = [
   path:"admin-edit-about/:id",
   component:EditAboutComponent
 },
+{
+  path:"register",
+  component:SignupComponent
+}
 
 ];
 

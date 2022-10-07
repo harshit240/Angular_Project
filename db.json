@@ -92,7 +92,12 @@
       "id": 1
     }
   ],
-  "register":[
-    
+  "register": [
+    {
+      "name": "module error",
+      "email": "error",
+      "password": "",
+      "id": 1
+    }
   ]
 }

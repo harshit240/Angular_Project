@@ -1,0 +1,17 @@
+<br><br><br>
+<form [formGroup]="form" (ngSubmit)="sendregister()">
+  <div class="containerc">
+    <div class="contact-box">
+      <div class="left"></div>
+      <div class="right">
+        <h2>Contact Us</h2>
+        <input type="text" class="field" formControlName="name" placeholder="Your Name">
+        <input type="text" class="field" formControlName="email" placeholder="Your Email">
+        <input type="password" class="field" formControlName="Password" placeholder="Your Password">
+        
+        <button class="btncontact">Send</button>
+      </div>
+    </div>
+  </div>
+</form>
+<br><br><br><br>

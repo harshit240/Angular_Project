@@ -8,7 +8,6 @@ import { Router } from '@angular/router';
 export class AdminService {
 
   url="http://localhost:3000/"
-  
   constructor(private http:HttpClient,private route :Router) { }
   
   getdata(){
@@ -55,5 +54,11 @@ export class AdminService {
     return this.http.get(this.url+'about')
   }
   // Registration page
-  
+  sendregisterdetails(details: any) {
+    console.log(details);
+    return this.http.post(this.url + 'register', details);
+  }
+  registerdata() {
+    return this.http.get(this.url + 'register');
+  }
 }

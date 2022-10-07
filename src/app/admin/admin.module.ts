@@ -18,7 +18,7 @@ import { ViewContactComponent } from './view-contact/view-contact.component';
 import { ViewCategoryComponent } from './view-category/view-category.component';
 import { DisplayAboutComponent } from './display-about/display-about.component';
 import { EditAboutComponent } from './edit-about/edit-about.component';
-import { RegisterComponent } from './register/register.component';
+import { SignupComponent } from './signup/signup.component';
 
 
 @NgModule({
@@ -36,7 +36,8 @@ import { RegisterComponent } from './register/register.component';
     ViewCategoryComponent,
     DisplayAboutComponent,
     EditAboutComponent,
-    RegisterComponent,
+    SignupComponent,
+    
    
   ],
   imports: [
