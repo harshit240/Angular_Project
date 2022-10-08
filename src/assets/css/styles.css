@@ -41,8 +41,7 @@
 .service-error h1 { font-size: 3em;text-transform: uppercase;color:#007EDA;}
 
 /*Admin*/
-.login-box {box-shadow: 1px 1px 7px #666;padding:20px;margin-top:10%;}
-.login-box h1 {font-size:24px;text-align: center;margin-bottom: 20px}
+
 .dash-left{margin-top: 30px;}
 .dash-left ul {padding:0;margin:0;list-style:none;}
 .dash-left ul li { background-color: #f1f1f1; margin-bottom:5px;}

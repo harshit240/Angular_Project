@@ -4,7 +4,18 @@
     height: 600px;
     background-size: cover;
 } */
-.contact_heading{
-    border-bottom:1px solid black; 
-    color:#386576;
+h1{
+    position: relative;
+    margin-bottom: 30px;
+}
+h1::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-30%);
+    height: 2px;
+    width: 150px;
+    border-radius: 2px;
+    background-color: #386576;
 }

@@ -1,1 +1,21 @@
-.mtb-40 { margin-bottom:40px; margin-top: 100px; min-height:450px;}
+.mtb-40 { margin-bottom:40px; margin-top: 70px; min-height:450px;}
+h1{
+    position: relative;
+    margin-bottom: 30px;
+}
+h1::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 100px;
+    border-radius: 2px;
+    background-color: #386576;
+}
+.readmorebtn{
+    background: #ff7200bd;
+    color: #ffff;
+    border: 0;
+}

@@ -3,3 +3,18 @@
     color: #ffff;
     border: 0;
 }
+h1{
+    position: relative;
+    margin-bottom: 30px;
+}
+h1::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 70px;
+    border-radius: 2px;
+    background-color: #386576;
+}

@@ -1,14 +1,14 @@
 <section class="blog-list mtb-40">
     <div class="container">
-      <h1>Blogs</h1>
       <div class="row">
+        <h1 class="text-center mb-5" style="color: #386576;">BLOGS</h1>
         <div class="col-md-4" *ngFor="let item of data">
           <div class="blog-box">
             <img src="{{item.image}}" alt="blog1" />
             <h3>{{item.title}}</h3>
             <p>by <span>RSGiTECH</span> on <span>October 22, 2018</span></p>
             <p>{{item.description}}</p>
-            <a [routerLink]="['/detail/',item.id]" class="btn btn-danger">Read more...</a>
+            <a [routerLink]="['/detail/',item.id]" class="btn btn-danger readmorebtn">Read more...</a>
           </div>
         </div>
       </div>
