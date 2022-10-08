@@ -22,13 +22,11 @@ input[type="text"]{
     border: 0;
     outline: 0;
     color: white;
-    
     background: rgb(72, 67, 67);
 }
 input[type="password"]{
     background: rgb(72, 67, 67);
     color: white;
-    
     border: 0;
     outline: 0;
 }
