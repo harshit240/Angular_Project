@@ -70,4 +70,9 @@ export class AdminService {
   registerdata() {
     return this.http.get(this.url + 'register');
   }
+  // Login 
+  admin_login(data:any){
+    console.log(data);
+    return this. http.post(this.url+'register',data)
+  }
 }
